@@ -1,0 +1,17 @@
+
+
+// A very basic JCl for beginner....
+
+//SAMPJCL JOB 1,CLASS=6,MSGCLASS=0,NOTIFY=&SYSUID          (1)
+//*                                                        (2)
+//STEP010  EXEC PGM=SORT                                   (3) 
+//SORTIN   DD DSN=JCL.SAMPLE.INPUT,DISP=SHR                (4)
+//SORTOUT  DD DSN=JCL.SAMPLE.OUTPUT,                       (5)
+//         DISP=(NEW,CATLG,DELETE)                 
+//SYSOUT   DD SYSOUT=*                                     (6) 
+//SYSUDUMP DD SYSOUT=C                                     (6) 
+//SYSPRINT DD SYSOUT=*                                     (6) 
+//SYSIN    DD *                                            (6) 
+  SORT FIELDS=COPY                                    
+  INCLUDE COND=(28,3,CH,EQ,C'XXX')                                    
+/*   
