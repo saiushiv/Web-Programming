@@ -1,2 +1,0 @@
-let myregexp =
-  Kstar(Concat(Union(Itself "hello",Itself "goodbye"),Itself "world"));;
