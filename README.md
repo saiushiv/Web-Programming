@@ -18,6 +18,7 @@ Additionally, use this function to validate the form fields on the web page. You
 •	The username field must contain only alphabetical or numeric characters.
 •	The password field should be at least 8 characters long.
 •	The email address field should contain a @ character.
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 2) PGM-2: a combination of Javascript and PHP:
