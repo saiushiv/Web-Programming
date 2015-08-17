@@ -1,6 +1,0 @@
-type rexp =
-  | Empty
-  | Itself of string
-  | Union of rexp*rexp
-  | Concat of rexp*rexp
-  | Kstar of rexp;;
