@@ -48,7 +48,8 @@ https://developers.google.com/maps/documentation/geocoding/
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-5) Online mobile store: A fully function online mobile store.
+5) Online mobile store: A fully functional online mobile store.
 
 Please visit this link to see this site live : http://saishiv.byethost32.com/mobistore/ 
-
+Note: The login page will not work since the database is not setup. For the login and register pages please refer to the
+PHP scripts in the /sourcefiles folder here in github itself...
