@@ -1,4 +1,0 @@
-let update (f : ('a -> 'a)) (x:'a) (y:'a) =
-  fun n ->
-  if n = x then y
-    else f(n);;
