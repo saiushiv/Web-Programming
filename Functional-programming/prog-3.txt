@@ -1,4 +1,0 @@
-let isempty r =
-  (match r with Empty -> true
-  | x -> false);;
-  
